@@ -12,8 +12,12 @@ p{
   text-underline-position: below;
   text-decoration-line: underline;
 }
+.jumbo{
+  color: maroon;
+  text-align: center;
+}
 h1{
-  color: white;
+  text-align: center;
 }
 h2{
   color: white;
