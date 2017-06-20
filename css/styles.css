@@ -1,0 +1,101 @@
+
+p{
+  font-size: 20px;color: white;
+}
+h1{
+  text-align: center;color: white;
+}
+h2{
+  color: white;
+}
+strong{
+  color: white;
+}
+ul{
+  color: white;
+}
+footer{
+  font-family: sans-serif;
+}
+body{background: linear-gradient(270deg, #a60706, #03042d, #880505);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 16s ease infinite;
+-moz-animation: AnimationName 16s ease infinite;
+animation: AnimationName 16s ease infinite;}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+
+
+
+.slide {
+  position: relative;
+  min-height: 100vh;
+
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+	transform-style: inherit;
+}
+
+
+
+.slide:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right:0;
+}
+
+
+
+.slide:nth-child(2n) .title {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.slide:nth-child(2n+1) .title {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.slide, .slide:before {
+  background: 50% 50% / cover;
+}
+
+.header {
+  text-align: center;
+  font-size: 175%;
+  color: #fff;
+  text-shadow: 0 2px 2px #000;
+}
+
+#title {
+  background-image: url("../img/me2.jpg");
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+#slide1:before {
+  background-image: url("../img/me1.jpg");
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
