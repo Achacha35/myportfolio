@@ -36,9 +36,7 @@ li:hover{
   color: red;
   transform-style: preserve-3d;
 }
-footer{
-  font-family: sans-serif;
-}
+
 body{background: linear-gradient(270deg, #a60706, #03042d, #880505);
 background-size: 600% 600%;
 
