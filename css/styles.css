@@ -9,6 +9,8 @@ p{
   font-family: fantasy;
   font-size: 80px;
   text-align-last: center;
+  text-underline-position: below;
+  text-decoration-line: underline;
 }
 h1{
   color: white;
@@ -28,6 +30,7 @@ ul:hover{
 li:hover{
   opacity: 0.2;
   color: red;
+  transform-style: preserve-3d;
 }
 footer{
   font-family: sans-serif;
